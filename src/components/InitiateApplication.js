@@ -4,6 +4,7 @@ import './styles.css'
 import { Link } from 'react-router-dom';
 
 function InitiateApplication(props) {
+    //used styled components package in React for styling the front end
     const TextCenter = styled.div`
     position: fixed;
     top: 30%;

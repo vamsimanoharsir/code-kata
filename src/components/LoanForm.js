@@ -25,6 +25,7 @@ function LoanForm(props) {
     };
   
     return (
+        //form to fill the loan details
         <div className='form'>
             <center>
             <form onSubmit={(e) => { handleSubmit(e) }}>
